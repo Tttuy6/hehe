@@ -18,7 +18,7 @@ function connectToScaledrone() {
     me.value.id = drone.clientId;
   });
 
-  const room = drone.subscribe('observable-room');
+  const room = drone.subscribe('observable-');
 
   room.on('message', message => {
     const { data, member } = message;
