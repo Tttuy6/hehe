@@ -8,7 +8,7 @@ import TypingIndicator from './components/TypingIndicator.vue';
 let drone = null
 
 function connectToScaledrone() {
-  drone = new window.Scaledrone('YOUR-CHANNEL-ID', {
+  drone = new window.Scaledrone('qDhiykwlEdzLe8Pm, {
     data: me.value,
   });
   drone.on('open', error => {
